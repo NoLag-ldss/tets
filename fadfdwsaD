@@ -190,7 +190,7 @@ local AcceptButton = createButton("AUTO ACCEPT", Color3.fromRGB(70, 200, 120))
 -- Notification Logic
 local function notify(txt)
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "Trade Assist",
+		Title = "ERROR",
 		Text = txt,
 		Duration = 2,
 	})
